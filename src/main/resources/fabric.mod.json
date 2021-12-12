@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "alternativekeepalive",
+  "version": "${version}",
+  "name": "Alternative Keepalive",
+  "description": "A simple fabric mod that ports Purpur's Alternative Keepalive patch to Mixin.",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/DontStarve72/Alternative-Keepalive-Fabric"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {},
+  "mixins": [
+    "alternativekeepalive.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.11",
+    "fabric": "*",
+    "minecraft": ">=1.18"
+  }
+}
